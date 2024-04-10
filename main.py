@@ -1,4 +1,4 @@
-from encoder import *
+from eliza_encoder import *
 def main():
     password = str(input('Enter your password: '))
     print(encoder(password))
